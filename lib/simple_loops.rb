@@ -6,7 +6,7 @@ def loop_message_five_times mess
   end
 end
 
-def loop_message_five_times mess, n 
+def loop_message_n_times mess, n 
   i = 0
   while i<n
     puts mess
