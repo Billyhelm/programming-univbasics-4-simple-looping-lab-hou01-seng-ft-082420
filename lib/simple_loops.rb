@@ -24,9 +24,10 @@ end
 
 def return_string_array array 
   i = 0 
+  new_array = []
   while i<array.length 
-    array[i] = array[i].to_s 
+    new_array[i] = array[i].to_s 
     i+=1 
   end 
-  array 
+  new_array 
 end
