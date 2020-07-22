@@ -1,3 +1,6 @@
 def loop_message_five_times mess 
-  for 5 puts mess 
+  i = 0 
+  while i<5 do
+    puts mess
+    i +=1
 end
